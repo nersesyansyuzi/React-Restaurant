@@ -54,7 +54,7 @@ function Nav() {
             </S.NavTop>
             <S.Nav>
                 <S.Container>
-                    <img src="/img/logo.png" alt="logo" onClick={() => Navigate("/")} style={{ cursor: 'pointer' }} />
+                    <img src="img/logo.png" alt="logo" onClick={() => Navigate("/")} style={{ cursor: 'pointer' }} />
                     <S.Ul className={showMenu ? "active" : ""}>
                         {NavLinkItem.map((elem) => {
                             const { id, path, title } = elem
@@ -73,7 +73,7 @@ function Nav() {
                                 <p>Delivery Order</p>
                                 <h5>+880 1630 225 015</h5>
                             </S.DeliveryWrapp >
-                            <img src="/img/food 1.png" alt="food" />
+                            <img src="img/food 1.png" alt="food" />
                             <div style={{display:"flex",flexDirection:"column",marginLeft:"40px",gap:"10px",alignItems:"center"}}>
                                 {user}
                                 <S.LoginButton onClick={handleNavigate}>{user ? "Sig in" : " Login"}</S.LoginButton>
